@@ -20,7 +20,7 @@
     self=[super initWithFrame:frame];
     if (self)
     {
-        self.backgroundColor =[[UIColor blueColor]colorWithAlphaComponent:0.6];
+        self.backgroundColor =[[UIColor blackColor]colorWithAlphaComponent:0.6];
         
         UIView * view1 =[[UIView alloc]initWithFrame:CGRectMake(0, LSCREENH-ShareH, LSCREENW, ShareH)];
         //view1.backgroundColor =[UIColor whiteColor];
